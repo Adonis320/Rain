@@ -1,4 +1,3 @@
-import java.awt.*;
 import javax.swing.*;
 
 public class Run extends JFrame 
@@ -17,6 +16,6 @@ public class Run extends JFrame
     }
     public static void main (String[] args)
     {
-        Run runMain = new Run(100,100,800,800,1000);
+        Run runMain = new Run(0,0,800,800,1000);
     }
 }
